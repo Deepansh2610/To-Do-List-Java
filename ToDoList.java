@@ -61,9 +61,9 @@ public class ToDoList {
         Scanner sc = new Scanner(System.in);
         int choice = 0;
         String fileName = null;
+        System.out.println("Welcome to the ToDoList application!");
+        System.out.println("-------------------------------------");
         do {
-            System.out.println("Welcome to the ToDoList application!");
-            System.out.println("-------------------------------------");
             System.out.println("Select an option:");
             System.out.println( "\n 1.Create a new file \n 2.Write to a file \n 3.Display Content of the file \n 4.Exit");
             choice = sc.nextInt();
